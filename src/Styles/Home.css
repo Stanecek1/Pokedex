@@ -1,0 +1,52 @@
+.Home-Title{
+    width: 300px;
+    height: 240px;
+    font-family: monospace;
+    border: 1px black solid;
+    background: rgb(255, 0, 0);
+    
+  }
+  
+  .Home-Description{
+    width: 1279px;
+    height: 240px;
+    font-family: monospace;
+    border: 1px black solid;
+    background: rgb(255, 255, 255);
+    
+  }
+  
+  .Home-CoolPika {
+    height: 150px;
+    width: 150px;
+  }
+  
+  .Home-App-header {
+    height: 125px;
+    padding: 20px;
+    color: white;
+    font-family: monospace;
+    font-size: 40px;
+  }
+  
+  .Home-HeaderImage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 1600px;
+  }
+  
+  .Home-Header-Text {
+    background: rgb(0, 0, 0);
+    color: rgb(0, 255, 234);
+  }
+
+  .Home-DescriptionTitle{
+    display: flex;
+    flex-direction: row;
+    width: 1575px;
+    border: 1px black solid;
+    margin: 0 auto;
+    
+  }

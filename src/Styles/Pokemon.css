@@ -1,0 +1,229 @@
+.Pokemon-App {
+    text-align: center;
+  }
+  
+  .Pokemon-App-logo {
+    animation: App-logo-spin infinite 3s linear;
+    height: 80px;
+    margin-top: 10px
+  }
+  
+  .Pokemon-Pika-Run {
+    animation: PokemonAPI-Pikachu-Run infinite 10s linear;
+    height: 25px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -830px;
+  
+  }
+  
+  .Pokemon-Pika-Run-On-Ball{
+    height: 25px;
+    position: absolute;
+    margin-top: -11px;
+    margin-left: -60px
+  }
+  
+  .Pokemon-App-header {
+    background-color: #222;
+    height: 125px;
+    padding: 20px;
+    color: white;
+  }
+  
+  .Pokemon-Haunter {
+    height: 120px;
+    width: 125px;
+    position: absolute;
+    margin-right: 25px;
+    margin-top: 0px;
+    right:  0;
+  }
+  
+  .Pokemon-CoolPika {
+    height: 100px;
+    width: 170px;
+    position: absolute;
+    margin-top: 10px;
+    left:  0;
+  }
+  
+  .Pokemon-App-title {
+    font-size: 1.5em;
+    font-family: monospace;
+  }
+
+  .Loading-Icon{
+    font-size: 1.5em;
+    font-family: monospace;
+    position: absolute;
+
+  }
+  
+  .Pokemon-App-title-animation {
+    font-size: 1.5em;
+    font-family: monospace;
+  }
+  
+  .Pokemon-App-intro {
+    font-family: monospace;
+    font-size: 1.5em;
+    color: white;
+  }
+  
+  .Pokemon-InputRowName {
+    background: rgb(255, 0, 0);
+    border: solid rgb(255, 0, 0) 10px;
+    display: inline-block;
+  
+  }
+  .Pokemon-InputRowMove {
+    background: rgb(0, 0, 0);
+    border: solid rgb(0, 0, 0) 10px;
+    display: inline-block;
+  }
+  
+  .Pokemon-InputRowItem {
+    background: rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255) 10px;
+    display: inline-block;
+  }
+  
+  .Pokemon-BackgroundImage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .Pokemon-App-button {
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  
+  .Pokemon-Button {
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .Pokemon-Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 120px
+  }
+  
+  .Pokemon-Column{
+    display: table-cell;
+    padding-left: 125px;
+    padding-top: 10px;
+  }
+  
+  .Pokemon-PokeNameNum{
+    background: rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0) 5px;
+    display: inline-block;
+    word-spacing: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    margin-top: 25px;
+  
+  }
+  
+  .Pokemon-PokePicture{
+    background: rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0) 5px;
+    display: inline-block;
+    width: 415px;
+    height: 200px;
+  }
+  
+  .Pokemon-ItemPicture{
+    background: rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0) 5px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center; 
+    width: 180px;
+    height: 100px;
+  }
+  
+  .Pokemon-RealRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Pokemon-SideBySide{
+    display: inline-table;
+    font-family: monospace;
+    width: 140px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0) 5px;
+  }
+  
+  .Pokemon-BaseStats{
+    display: inline-table;
+    font-family: monospace;
+    width: 160px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0) 5px;
+  }
+  
+  .Pokemon-Border{
+    display: inline-table;
+    font-family: monospace;
+    width: 480px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid rgb(0, 0, 0) 5px;
+    font-size: 9px;
+  }
+  
+  
+  .Pokemon-Stats{
+    display: inline-table;
+    font-family: monospace;
+    width: 230px;
+    background: rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0) 5px;
+  }
+  
+  .Pokemon-StrongWeak{
+    display: inline-table;
+    font-family: monospace;
+    width: 230px;
+    background: rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0) 5px;
+    padding-bottom: 5px;
+  }
+  
+  .Pokemon-MoveStats{
+    display: inline-table;
+    font-family: monospace;
+    width: 450px;
+    padding-left:5px;
+    padding-right: 5px;
+    background: rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0) 5px;
+  }
+  
+  .Pokemon-Test{
+    display: inline-flex;
+    padding-left: 25px;
+  }
+
+  .Pokemon-Pokemon{
+    display: inline-flex;
+  }
+
+  @keyframes App-logo-spin {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0deg); }
+  }

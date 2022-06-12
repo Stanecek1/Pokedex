@@ -1,0 +1,47 @@
+.Weather-App {
+    text-align: center;
+  }
+  
+  .Weather-App-logo {
+    animation: App-logo-spin infinite 5s linear;
+    height: 100px;
+  }
+  
+  .Weather-App-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .Weather-rowC {
+    background: rgb(182, 99, 250);
+    border: solid rgb(0, 0, 0) 5px;
+    display: inline-block;
+    padding: 5px;
+    
+  }
+  
+  .Weather-App-title {
+    font-size: 1.5em;
+    color: rgb(255, 0, 0);
+  }
+  
+  .Weather-App-button{
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  
+  }
+  
+  .Weather-App-button-change{
+    font-size: 1.7em;
+    color: rgb(255, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  
+  }
+  
+  .Weather-App-intro {
+    font-size: large;
+    color: rgb(255, 255, 255);
+  }

@@ -1,0 +1,56 @@
+.Translation-App {
+    text-align: center;
+  }
+
+.Translation-Logo{
+    margin-top: 20px;
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+.Translation-Input{
+    display: inline-table;
+    width: 400px;
+    height: 50px;
+    margin-left: -400px;
+}
+
+.Translation-Output-Border{
+    display: inline-table;
+    position: absolute;
+    margin-top: 0px;
+    border: 1px black solid;
+    width: 400px;
+    height: 54px;
+}
+
+.Translation-Output{
+    font-family: monospace; 
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px
+}
+
+.Translation-Select-From-Language{
+    display: inline-table;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.Translation-Select-To-Language{
+    display: inline-table;
+    width:150px;
+}
+
+.Translation-Button{
+    font-size: 1.8em;
+    font-family: monospace;
+}
+
+.Translation-Arrow{
+    margin-bottom: -20px;
+}
+
